@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api/connectors';
+const API_BASE_URL = "https://webscrapping-uol6.onrender.com/api/connectors";
 
 export const getConnectors = async () => {
   const res = await fetch(API_BASE_URL, { headers: { 'Content-Type': 'application/json' } });
