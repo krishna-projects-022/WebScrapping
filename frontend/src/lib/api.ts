@@ -1,4 +1,4 @@
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://webscrapping-uol6.onrender.com/api';
 
 function getToken(token?: string) {
   return token || localStorage.getItem('token') || undefined;
